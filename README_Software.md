@@ -20,6 +20,13 @@ The user interface consists of three general sections: on the left are controls 
      3. Table of sound pressure levels (of unit dB), in ⅓-octave bands
      4. Full-spectrum averages of single-band sound pressure levels and of RMS voltages
 
+## SubVIs
+There are four main subVis in the program:
+
+1. EntireSpectrumProcess: In this, the signal is analyzed across the entire spectrum. That is, the input is the signal's waveform, and the output includes the raw graph of the signal and the FFT in the positive spectrum, as well as the RMS and SPL of that signal.
+2. OctaveBandProcess: The signal is analyzed by dividing it into different 1/3-octave bands. You can choose whether the result is in dB, in which case SPL values for each band will be obtained, or RMS values if not. In both cases, a graph of these bands and their numerical data is obtained.
+3. LogAverage: Calculates the logarithmic average of two input values.
+4. LogSum: Calculates the logarithmic sum of two input values.
 
 ## External DLL Library
 The developed custom DLL library is responsible, on each measurement trial, for the following: <br>
