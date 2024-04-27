@@ -1,12 +1,4 @@
-- schematics
-- vendor information
-- pictures
-- technical specs
-- etc.
-
-Also includes a document highlighting how to setup the project and connect to external systems, sensors, etc.
-
-The following hardware items together constitute the input-signal chain of the OBSIDAS in the form of a quad-microphone sensor array (quantities are indicated in parentheses):
+**The following hardware items together constitute the input-signal chain of the OBSIDAS in the form of a quad-microphone sensor array (quantities are indicated in parentheses):**
 
   1. [GRAS 26AK preamplifiers](https://www.grasacoustics.com/products/preamplifiers-for-microphone-cartridge/traditional-power-supply-lemo/product/210-26ak) (x4)
   2. [GRAS 40AI externally polarized paired microphones](https://www.grasacoustics.com/products/special-microphone/intensity-microphones/product/170-40ai) (x4; i.e, 2 pairs)
@@ -20,6 +12,9 @@ The preamplifiers and microphone are connected to the power modules by the LEMO 
 
 The Bruel and Kjaer 4231 calibrator is to be used during microphone calibration. The calibrator generates an audio signal (at either 94 or 114 dB SPL) of frequency 1 kHz and contains a slot into which a single microphone capsule should be inserted during digital microphone-sensitivity-value adjustment.
 
-NOTE: Each of these items was selected by Volpe per their internal standards and requirements, and thus, none represent a design decision on the part of our team. As such, technical specs & schematics can be found in the provided links. 
+-Picture diagram/schematic for signal chain, components
+
+**NOTE:** Each of these items was selected by Volpe per their internal standards and requirements, and thus, none represent a design decision on the part of our team. As such, technical specs & schematics can be found in the provided links. 
 The experimental standard around which OBSIDAS is to be used also accounts for hardware specifications and setup; this standard is titled [AASHTO TP 76-10, which you can purchase the PDF for here.](https://www.engineerdocuments.com/standards/AASHTO-TP-76-10/)
 
+For information on the software-side setup for OBSIDAS' I/O, refer to README_Software.md
