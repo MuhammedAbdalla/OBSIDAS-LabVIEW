@@ -12,7 +12,7 @@ The preamplifiers and microphone are connected to the power modules by the LEMO 
 
 The Bruel and Kjaer 4231 calibrator is to be used during microphone calibration. The calibrator generates an audio signal (at either 94 or 114 dB SPL) of frequency 1 kHz and contains a slot into which a single microphone capsule should be inserted during digital microphone-sensitivity-value adjustment.
 
--Picture diagram/schematic for signal chain, components
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/2f078e2b-07c7-4a50-9f92-2528a0201b03)
 
 **NOTE:** Each of these items was selected by Volpe per their internal standards and requirements, and thus, none represent a design decision on the part of our team. As such, technical specs & schematics can be found in the provided links. 
 The experimental standard around which OBSIDAS is to be used also accounts for hardware specifications and setup; this standard is titled [AASHTO TP 76-10, which you can purchase the PDF for here.](https://www.engineerdocuments.com/standards/AASHTO-TP-76-10/)
