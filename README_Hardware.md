@@ -1,3 +1,4 @@
+# OBSIDAS Hardware & Equipment
 **The following hardware items together constitute the input-signal chain of the OBSIDAS in the form of a quad-microphone sensor array (quantities are indicated in parentheses):**
 
   1. [GRAS 26AK preamplifiers](https://www.grasacoustics.com/products/preamplifiers-for-microphone-cartridge/traditional-power-supply-lemo/product/210-26ak) (x4)
