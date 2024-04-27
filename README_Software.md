@@ -28,6 +28,21 @@ The developed custom DLL library is responsible, on each measurement trial, for 
  	      6. Overall sound pressure levels (x1)
  	      7. A-weighted versions of (5) and (6) above
 
+### Acquisition Interface
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/76fc3e26-9483-42fb-8653-17237035d64f)
+
+### Raw Signal Plot
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/25faace1-e279-4a77-9d28-797af8835120)
+
+### RMS & SPL Graphs
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/818a0348-36e3-4ade-b056-f1be4a6d2db5)
+
+### SPL Data
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/86f11091-6a82-4686-816e-a40c96bc88d2)
+
+### FFT plot
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/1fb15d40-e4da-4c8f-a792-9d5d4ffa0e49)
+
 Within LabVIEW, the DLL is called by an instance of the ‘Call External Library’ node, which is configured with the following options: <br>
 (a) The ‘stdcall (WINAPI)’ calling convention, as opposed to the ‘C’ convention that requires memory management to occur entirely within LabVIEW. <br>
 (b) The ‘run in any thread’ threading-behavior option, as opposed to the alternative option that restricts activity to the UI thread. <br>
