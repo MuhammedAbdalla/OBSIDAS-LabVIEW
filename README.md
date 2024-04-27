@@ -1,6 +1,7 @@
 # OBSIDAS-LabVIEW
 
-<img width="1280" alt="image" src="https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/cdf5f888-2cb8-4eb6-ba89-613cc6afa0e5">
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/2f078e2b-07c7-4a50-9f92-2528a0201b03)
+
 
 Description coming soon..
 
