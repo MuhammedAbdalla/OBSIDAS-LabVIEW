@@ -1,5 +1,16 @@
 # OBSIDAS LabVIEW Software & Modules
 ## Main LabVIEW VI
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/2e92fb91-6ba0-4c8a-b0a4-822b15bbf90f)
+
+### Virtual Instruments (VIs)
+	Application.vi
+		The main application that serves as the holder of the data pipeline logic, and DAQ logic
+	EntireSpectrumProcess.vi
+	LogAverage.vi
+	LogSum.vi
+	OctaveBandsProcess.vi
+	WriteToFile.vi
+		This VI takes in string array of  ‘contents’ and will write into a subfolder ‘runs’ with the provided file name to be written to. Converting all data into string then writing proved to be significantly faster than writing all data to a string spreadsheet from Floating Point into a .csv
 
 ## User Interface VI
 The user interface consists of three general sections: on the left are controls for input-device selection and for measurement-trial configuration and initiation, including spaces to define trial duration and microphone sensitivities; on the right is a preview of the information to be exported in *.csv form; and in the center are graphs generated from recorded input data of the previous trial, each of which displays for a single microphone one of the following items (selectable by the user):
