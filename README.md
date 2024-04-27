@@ -1,8 +1,4 @@
 # OBSIDAS-LabVIEW
-
-![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/2f078e2b-07c7-4a50-9f92-2528a0201b03)
-![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/05029793-926b-4cd4-b326-67569b0ddfb8)
-
 ## Overview
 This is the LabVIEW implementation of On-Board Sound Intensity Data Aquisition System (OBSIDAS). The project consists of a main Virtual Instrument (VI) along with SubVIs to complete specific tasks. <br> 
 The application.vi is the start up screen when running the executable. <br> 
@@ -14,6 +10,7 @@ The User Interface consists of two tabs: Acquisition and Results <br>
 4. LabVIEW Application Builder Addon
 5. **NI-DAQmx 2024 Q1**
 ### Acquisition Tab
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/2f078e2b-07c7-4a50-9f92-2528a0201b03) <br>
 ##### Acquisition source
 1. Device Acquisition (DAQ mode)
 2. File input to reprocess
@@ -46,7 +43,8 @@ path indicated the location of the saved file
 preview the header and first contents of the saved raw output file
 
 ### Results Tab
-There 4 graphs to represent the 4 probes connected to the device. Each graph has the same subtabs, for processed results
+![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/54071115/05029793-926b-4cd4-b326-67569b0ddfb8) <br>
+**There 4 graphs to represent the 4 probes connected to the device. Each graph has the same subtabs, for processed results**
 ##### Raw Signal Tab
 ##### FFT Tab
 ##### RMS Graph Tab
