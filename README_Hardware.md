@@ -13,6 +13,7 @@ The preamplifiers and microphone are connected to the power modules by the LEMO 
 
 The Bruel and Kjaer 4231 calibrator is to be used during microphone calibration. The calibrator generates an audio signal (at either 94 or 114 dB SPL) of frequency 1 kHz and contains a slot into which a single microphone capsule should be inserted during digital microphone-sensitivity-value adjustment.
 
+**NOTE:** In the diagram below, "Oscilloscope" is referring to the NI USB-4431 data acquisition interface, which connects to the user's laptop via USB Type-B.
 ![image](https://github.com/MuhammedAbdalla/OBSIDAS-LabVIEW/assets/115284776/025fa017-594b-4e16-8c4f-9ecb8256bb0e)
 
   1. #### GRAS 26AK preamplifier
