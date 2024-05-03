@@ -333,8 +333,8 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BAD8DF03-45AE-4CF3-8D1F-7F0ADA256702}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Application.exe buil 2.0.1
-April 26 2024
+				<Property Name="Bld_buildSpecDescription" Type="Str">Application.exe buil 2.0.2
+May 2nd 2024
 2024 Runtime</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -344,7 +344,7 @@ April 26 2024
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{972BE41D-82B3-4815-8728-7E93BDCEF0F6}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../exe/Application.exe</Property>
@@ -355,7 +355,7 @@ April 26 2024
 				<Property Name="Destination[1].path" Type="Path">../exe/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6365C44C-CB2E-40F2-BE6B-7D7EB75F75CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{23238FB7-9095-44C0-8704-84665FFB2591}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.vi</Property>
@@ -363,23 +363,18 @@ April 26 2024
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/EntireSpectrumProcess.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/WriteToFile.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LogAverage.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LogSum.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/OctaveBandsProcess.vi</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Cambridge Rindge &amp; Latin School</Property>
